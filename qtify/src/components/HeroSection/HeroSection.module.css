@@ -1,23 +1,23 @@
-.wrapper{
+.hero {
+    background-color: #121212;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 16.875rem;
-    background-color: black;
-}
+  }
 
-.heroImageWrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.banner{
+  .heroTitle {
     display: flex;
     flex-direction: column;
-    color: var(--color-white);
-    width: 37.8125rem;
-    text-align: center;
-}
+    justify-content: center;
+    align-items: center;
+    line-height: 48px;
+    font-weight: 600;
+    margin: 20px;
+    color: #ffffff;
+  }
+
+  .heroImage {
+    height: 212px;
+    width: 212px;
+  }
