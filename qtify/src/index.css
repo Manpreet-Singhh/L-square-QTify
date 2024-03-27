@@ -1,7 +1,7 @@
-:root{
+:root {
   --color-primary: #34c94b;
-  --color-black: #121212;
   --color-white: #ffffff;
+  --color-black: #121212;
 }
 
 *,
@@ -9,17 +9,27 @@
 *::after {
   box-sizing: border-box;
 }
-
-*{
+* {
   margin: 0;
 }
-
-html, body {
+html,body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+}
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+img,svg{
+  display: block;
+  /* align-items: center; */
+  max-width: 100%;
+  /* margin: 5px; */
+}
+
+.swiper-slide{
+  width: auto !important;
 }
