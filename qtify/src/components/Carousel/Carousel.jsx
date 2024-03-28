@@ -37,4 +37,4 @@ const Carousel = ({ data, renderCardComponent }) => {
   )
 }
 
-export default Carousel
+export default Carousel;

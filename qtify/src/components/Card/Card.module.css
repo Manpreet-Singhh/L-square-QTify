@@ -1,5 +1,6 @@
 .wrapper {
     width: 160px;
+    margin-bottom: 40px;
 }
 
 .card{
@@ -37,6 +38,7 @@
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    color: white;
 }
 
 .chip {

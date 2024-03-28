@@ -10,7 +10,7 @@ export const fetchTopAlbums = async () => {
     }
     catch(e)
     {
-        console.log(e);
+        console.error(e);
     }
 }
 
@@ -22,7 +22,7 @@ export const fetchNewAlbums = async () => {
     }
     catch(e)
     {
-        console.log(e);
+        console.error(e);
     }
 }
 
@@ -34,6 +34,18 @@ export const fetchAllSongs = async () => {
     }
     catch(e)
     {
-        console.log(e);
+        console.error(e);
+    }
+}
+
+export const fetchFilters = async () => {
+    try
+    {
+        const response = await axios.get(`${BACKEND_ENDPOINT}/genres`);
+        return response.data;
+    }
+    catch(e)
+    {
+        console.error(e);
     }
 }

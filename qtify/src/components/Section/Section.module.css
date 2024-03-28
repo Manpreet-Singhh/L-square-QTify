@@ -7,12 +7,18 @@
 .cardWrapper{
     margin-top: 18px;
 }
+
 .wrapper{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
 }
+
 .toggleText{
     color: var(--color-primary);
     cursor: pointer;
+}
+
+.filterWrapper {
+    margin-top: 15px;
 }
