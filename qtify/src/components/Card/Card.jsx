@@ -12,7 +12,7 @@ function Card({data, type})
                 const { image, follows, title , slug, songs } = data;
                 return (
                     <Tooltip title={`${songs.length} songs`} placement="top" arrow>
-                        <Link to={`/album${slug}`}>
+                        <Link to={`/album${slug}`} style={{ textDecoration: 'none' }}>
                             <div className={styles.wrapper}>
                                 <div className={styles.card}>
                                     <img src={image} alt="album" loading="lazy" />
